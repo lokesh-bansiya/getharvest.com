@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body>img{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Della Respira", serif;
+  }
+
+#container{
+    margin: 20px auto;
+    padding: 20px;
+    width:600px;
+}
+#container>p{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    font-size: 18px;
+}
+
+form{
+    width:530px;
+    min-width: 480px;
+    margin: auto;
+    border: 1px solid orangered;
+    padding: 40px;
+    background: #fbf1e8;
+}
+  
+.signGoogle {
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 10% 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .signGoogle img {
+    width: 30px;
+    height: 30px;
+  }
+  .signGoogle>p{
+    font-size: 20px;
+  }
+  
+  form > div {
+    text-align: center;
+    margin: 20px auto;
+  }
+ 
+  
+  form > div input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px auto;
+  }
+  
+  form button {
+    padding: 12px 16px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #188433;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    font-size: 18px;
+  }
+  form button:hover{
+      cursor: pointer;
+      background-color: #186f2d;
+  }
+  .orLink {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .orLink > div:nth-child(2) {
+    margin-top: 10px;
+  }
+  
+  .createAccount > form {
+    min-width: 500px;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 48px 40px 47px;
+    width: 90%;
+    margin: auto;
+    margin-top: -20px;
+  }
+  form input:hover{
+    border: 1px solid rgb(160, 157, 157);
+  }
+  form h1{
+    font-size: 40px;
+    
+    font-family: "Della Respira", serif;
+  }
+  form h4{
+      color: gray;
+  }
+  form p{
+      color: gray;
+      font-size: 12px;
+      text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: orangered;
+  }

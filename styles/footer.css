@@ -1,0 +1,238 @@
+#footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding-bottom: 5%;
+}
+
+#footer > div:first-child{
+    display: flex;
+}
+
+#footer > div:first-child > div:first-child{
+    width: 20%;
+    padding: 3%;
+}
+
+#footer > div:first-child > div:first-child > img{
+    width: 100%;
+}
+
+#footer > div:first-child > div:last-child {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-left: 3%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3%;
+}
+
+#footer > div:first-child p{
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    font-size: large;
+    color: aliceblue;
+}
+
+#footer > div:first-child p:first-child{
+    font-size: 25px;
+    margin-bottom: 4.5%;
+}
+
+#footer > div:first-child p:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+#footer > div:nth-child(2){
+    margin-top: 5%;
+}
+
+#footer > div:nth-child(2) > div{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+#footer > div:nth-child(2) > div:hover{
+    background-color: rgb(25, 24, 24);
+}
+
+#footer > div:nth-child(2) > div > p{
+    color: rgb(224, 220, 220);
+    padding: 1% auto 1% auto;
+}
+
+
+span{
+    font-weight: bold;
+}
+
+#footer > div:last-child{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding-left: 3%;
+}
+
+#footer > div:last-child > div:first-child > p {
+    color: rgb(206, 203, 203);
+}
+
+#footer > div:last-child > div:last-child{
+    width: 40%;
+    display: flex;
+    color: gray;
+    font-size: 20px;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-instagram{
+    color: gray;
+}
+
+
+#footer > div:last-child > div:last-child > div{
+    margin-left: 5%;
+}
+
+#footer > div:last-child > div:last-child > div:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    #footer > div:first-child{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer > div:first-child > div:first-child > img{
+        width: 50%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    #footer > div:first-child > div:first-child{
+        width: 40%;
+        padding-left: 6%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    #footer > div:first-child > div:last-child {
+        width: 90%;
+        margin: auto;
+        padding: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5%;
+    }
+
+    #footer > div:first-child p{
+        margin-bottom: 1.5%;
+        margin-top: 1.5%;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    #footer > div:last-child {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #footer > div:last-child > div:last-child{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        color: gray;
+        font-size: 20px;
+    }
+
+    #footer > div:nth-child(2) > div{
+        width: 60%;
+        margin: auto;
+        margin-top: 7%;
+        margin-bottom: 10%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+ 
+    #footer > div:first-child{
+        display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+    }
+
+    #footer > div:first-child > div:first-child{
+        width: 40%;
+        padding-left: 6%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
+    #footer > div:first-child > div:last-child {
+        width: 90%;
+        margin: auto;
+        padding: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,auto);
+        gap: 5%;
+    }
+
+    #footer > div:first-child p{
+        font-size: 13px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        color: aliceblue;
+    }
+
+    #footer > div:last-child {
+        padding-left: 20%;
+        display: flex;
+        text-align: left;
+        padding: auto;
+        margin: auto;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #footer > div:last-child > div:first-child{
+        text-align: left;
+    }
+
+    #footer > div:last-child > div:last-child{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: gray;
+        font-size: 15px;
+        padding-bottom: 3%;
+    }
+
+    #footer > div:nth-child(2) > div{
+        width: 60%;
+        margin: auto;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+}

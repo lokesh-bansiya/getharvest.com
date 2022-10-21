@@ -1,0 +1,159 @@
+
+
+/* Navbar Css Starts */
+
+*{
+    margin: 0;
+}
+header{
+    
+    position: sticky;
+    top: 0;
+    background-color: #fff6ed;
+    font-family:  'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #fff6ed;
+
+}
+#navbar{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 20%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    margin:auto;
+    
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#orange{
+    cursor: pointer;
+}
+
+#black{
+    display: none;
+    cursor: pointer;
+}
+#navbar a{
+    font-size: 17px;
+    text-decoration: none;
+    color:#1d1e1c;
+    font-weight: 600;
+}
+#navbar a:hover{
+    color: rgba(250,93,0,100%);
+    
+}
+
+.signup{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 15px;
+    color: rgba(255,248,241,100%);
+    background-color: rgba(250,93,0,100%);
+}
+.signup>a{
+    color:white !important;
+}
+#menu{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 15px;
+    color: rgba(255,248,241,100%);
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    display: none;
+}
+#menu img{
+    width: 30px;
+}
+
+#closemenu{
+    display: none;
+}
+
+#menudiv{
+    height: 82vh;
+    display:none;
+    margin-top: 40px;
+}
+#menudiv>div>div{
+    width: 90%;
+    margin: auto;
+   padding: 20px;
+}
+#menudiv>div>div:hover{
+    background-color: #2b2b2a;
+}
+#menudiv a{
+   font-size: 25px;
+   color: white;
+   text-decoration: none;
+}
+#menudiv>div:last-child{
+   text-align: center;
+   margin-top: 30px;
+}
+.menuBtn{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(57, 57, 57);
+    width: 40%;
+    padding:15px 0;
+    margin: 5px;
+}
+.menuBtn>a:hover{
+    color: rgba(250,93,0,100%) !important;
+
+}
+
+
+
+
+
+@media  screen and (min-width: 300px) and (max-width: 900px){
+    header{
+        background-color: #1d1d1b;
+    }
+
+    #orange{
+        display: none;
+    }
+    #black{
+        display: inherit;
+    }
+    
+    
+    #navbar a{
+        display: none;
+    }
+    
+    .signup{
+        display: none;
+
+    }
+    #menu{
+        display: inherit;
+    }
+
+    
+}
+
+
+/* Navbar Css Ends */
