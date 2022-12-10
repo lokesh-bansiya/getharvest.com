@@ -12,14 +12,9 @@ We were assigned with the team and we all were very new to each of us as we were
  -  Hello readers, most of you know about getharvest.com, and for those who don’t know, getharvest.com, can go through this url https://www.getharvest.com/  
 So we as a team were assigned to develop the clone of this website in the construct week project in Masai School. And to throw some more light, getharvest.com was our project and we managed to complete it in just 5 days, so yeah, a big cheer to the team 
 
-## Tech-stacks:-
- - HTML
- - CSS
- - JavaScript
-## Tools:-
- - VS-Code
- - GitHub
- - Netlify
+## Functionality
+  -  Authentication of users
+  -  Fully responsive
  
 # Descriptive Layout:-
 
@@ -42,7 +37,16 @@ So we as a team were assigned to develop the clone of this website in the constr
 ## Customers Page:-
 ![custmer page](https://user-images.githubusercontent.com/105616033/204088139-d680b68f-939b-4789-ab20-98c2902e784f.png)
 
-
+## Tech-stacks:-
+ - HTML
+ - CSS
+ - JavaScript
+## Tools:-
+ - VS-Code
+ - GitHub
+ - Netlify
+ 
+ 
 <br/>
 
 <div>
