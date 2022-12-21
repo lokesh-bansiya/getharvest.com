@@ -49,15 +49,13 @@ So we as a team were assigned to develop the clone of this website in the constr
  
 <br/>
 
-<div>
-   <h1>Team Members:-</h1>
-   <h2>Team Members:-</h2>
-   <h3>1. Lokesh Patidar fw20_1148</h3>
-   <h3>2. Akash Kumar Panda (team lead)</h3>
-   <h3>3. Taushif Ansari fw20_0330</h3>
-   <h3>4. Abhishek Balwant Tijare fw20_0638</h3>
-   <h3>5. Paras Jamwal fp05_056</h3>
-</div>
+## Team members:-
+  - [Lokesh Patidar](https://github.com/lokesh-patidar)
+  - [Akash Kumar Panda (team lead)](https://github.com/AkashPanda1701)
+  - [Taushif Ansari](https://github.com/taushif07)
+  - [Abhishek Balwant Tijare](https://github.com/Abhishek8308)
+  - [Paras Jamwal](https://github.com/ParasThakur199)
+
 
 <br/>
 <br/>
