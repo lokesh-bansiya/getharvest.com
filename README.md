@@ -9,8 +9,8 @@ We were assigned with the team and we all were very new to each of us as we were
 
 ## About Project:-
  -  Collaborative Project
- -  Hello readers, most of you know about getharvest.com, and for those who don’t know, getharvest.com, can go through this url https://www.getharvest.com/  
-So we as a team were assigned to develop the clone of this website in the construct week project in Masai School. And to throw some more light, getharvest.com was our project and we managed to complete it in just 5 days, so yeah, a big cheer to the team 
+ -  Hello readers, most of you know about getharvest.com, and for those who don’t know, getharvest.com can go through this URL https://www.getharvest.com/
+So we as a team were assigned to develop a clone of this website in the construct week project in Masai School. And to throw some more light, getharvest.com was our project and we managed to complete it in just 5 days, so yeah, a big cheer to the team.
 
 ## Functionality
   -  Authentication of users
